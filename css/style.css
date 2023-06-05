@@ -154,7 +154,11 @@
     z-index: 1;
 }
 
+.about-section-box {
+    padding: 70px 0px;
+    background-image: #ffff url(images/about-bg.jpg) no-repeat bottom center;
 
+}
 /*** Section Title ***/
 .section-title {
     position: relative;
