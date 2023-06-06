@@ -153,11 +153,35 @@
     margin-top: -100px !important;
     z-index: 1;
 }
-
+/*** ABOUT ***/
 .about-section-box {
     padding: 70px 0px;
-    background-image: #ffff url(images/about-bg.jpg) no-repeat bottom center;
+    background: #ffff url(../images/about-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+}
 
+.qt-background{
+    background: url(../images/qt-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    
+}
+
+.qt-background p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.qt-background span {
+    color: #fff;
+    font-size: 25px;  
+    font-weight: 600;   
 }
 /*** Section Title ***/
 .section-title {
